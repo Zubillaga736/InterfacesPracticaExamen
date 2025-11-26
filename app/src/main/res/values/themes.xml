@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InterfacesPracticaExamen" parent="Theme.MaterialComponents.DayNight">
+        <item name="actionBarStyle">@style/TransparentActionBar</item>
+    </style>
+
+    <style name="TransparentActionBar" parent="Widget.AppCompat.ActionBar" >
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="android:elevation">0dp</item>
+        <item name="displayOptions">showHome</item>
+    </style>
+
+    <style name="Theme.InterfacesPracticaExamen.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.InterfacesPracticaExamen" parent="Base.Theme.InterfacesPracticaExamen"/>
+</resources>
