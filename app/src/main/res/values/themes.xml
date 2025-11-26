@@ -4,6 +4,7 @@
         <item name="actionBarStyle">@style/TransparentActionBar</item>
     </style>
 
+    <!-- Para pone el ActionBar-->
     <style name="TransparentActionBar" parent="Widget.AppCompat.ActionBar" >
         <item name="android:windowIsTranslucent">true</item>
         <item name="background">@android:color/transparent</item>
